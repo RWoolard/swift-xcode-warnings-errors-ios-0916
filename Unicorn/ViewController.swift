@@ -12,11 +12,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let favoriteActor = "Leo"
+        favoriteActor = "Brad"
+        
     }
     
     func unicorn() -> String {
         
-        return "🦄 🦄 🦄 🦄"
+        return "I hate unicorns"
         
     }
     
@@ -25,5 +29,7 @@ class ViewController: UIViewController {
         return person + "♥️"
         
     }
+    
+    
     
 }
